@@ -1,11 +1,11 @@
-[200~#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return always 0 (success)
  */
 int main(void)
 {
-    return (0);
+	return (0);
 }
