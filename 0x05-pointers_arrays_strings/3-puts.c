@@ -2,7 +2,7 @@
 
 /**
 *_puts - entry point
-*str: char
+*@str: char
 */
 
 void _puts(char *str)
