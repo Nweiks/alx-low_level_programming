@@ -5,14 +5,14 @@
 *str: char
 *len: int
 *@s: value
-*Return: n 
+*Return: n
 */
 
 int _strlen(char *s)
 {
 int n = 0;
 
-while(*s != '\0')
+while (*s != '\0')
 {
 n++;
 s++;
