@@ -2,7 +2,7 @@
 
 /**
 *print_rev - reverse
-*@str: char
+*@s: char
 */
 
 void print_rev(char *s)
