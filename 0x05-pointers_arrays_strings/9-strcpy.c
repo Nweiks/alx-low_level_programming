@@ -2,8 +2,9 @@
 
 /**
  *_strcpy - copy string
- *dest: return value
+ *@dest: return value
 *@src: string value
+* Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
