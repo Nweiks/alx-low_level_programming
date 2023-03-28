@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+void print_array(int *a, int n);
+void print_rev(char *s);
 void _puts(char *str);
 int _strlen(char *s);
 void reset_to_98(int *n);
