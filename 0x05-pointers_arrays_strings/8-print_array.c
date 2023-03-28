@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
-*print_array - prints an array
-*@a: int
-*@n: int
-*Return: Nothing
-*/
+ *print_array - prints an array
+ *@a: int
+ *@n: int
+ *Return: Nothing
+ */
 
 void print_array(int *a, int n)
 {
-int i:
+	int i;
 
-for (i = 0; i < n; ++i)
-{
-if(i !=(n - 1))
-printf("%d,", a[i]);
-else 
-printf("%d,", a[i]);
-}
-printf("\n");
+		for (i = 0; i < (n - 1); i++)
+		{
+			printf("%d,", i[a]);
+		}
+	if(i == (n - 1))
+	{
+		printf("%d,", a[n - 1]);
+	}
+	printf("\n");
 }
