@@ -15,13 +15,18 @@ int i;
 	{
 		j++;
 	}
-	if (i % 2 != 0)
+	if (j % 2 == 1)
 	{
-		_putchar(str[i]- 1 / 2);
+		i = (j - 1) / 2;
+i += ;
 	}
 	else
 	{
-		_putchar(str[i]);
+		k = j / 2;
 	}
-	_putchar('\n');
+for (; i < j; j++)
+{
+	_putchar(str[i]);
+{
+_putchar('\n');
 }
