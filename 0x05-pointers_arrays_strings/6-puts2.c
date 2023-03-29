@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*puts2 - main
-*@str: string tp be printed
+ *puts2 - main
+ *@str: string tp be printed
  */
 
 void puts2(char *str)
@@ -12,6 +12,7 @@ void puts2(char *str)
 	for (i = 0; i < (*str); i += 2)
 	{
 		_putchar(str[i]);
+		str++;
 	}
-_putchar('\n');
+	_putchar('\n');
 }
