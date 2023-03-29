@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
+ int _atoi(char *s);
 void puts_half(char *str);
 void puts2(char *str);
 char *_strcpy(char *dest, char *src);
