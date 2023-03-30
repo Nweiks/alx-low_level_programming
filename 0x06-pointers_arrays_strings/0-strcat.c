@@ -2,7 +2,8 @@
 
 /**
  *_strcat - main string
- *@str: new
+ *@src: string 1
+*@dest: string 2
  *Return: 0
  */
 char *_strcat(char *dest, char *src)
