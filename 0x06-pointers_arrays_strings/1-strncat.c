@@ -4,6 +4,7 @@
  *_strncat - main string to be merged
  *@dest: string 1
  *@src: string 2
+*@n: value
 *Return: dest
  */
 
@@ -21,9 +22,10 @@ char *_strncat(char *dest, char *src, int n)
 	j = 0;
 	while (j < n && src[j] != '\0')
 	{
+		dest[i] = src[j];
 		i++;
 		j++;
-		dest[i] = src[j];
+		
 	}
 	dest[i] = '\0';
 
