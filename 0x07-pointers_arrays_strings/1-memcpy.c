@@ -2,8 +2,8 @@
 
 /**
  *_memcpy - copy string or array
- *@src:
- *@dest:
+ *@src: to be copied from
+ *@dest: to be copied to
  *@n: value
  *Return: 0
  */
