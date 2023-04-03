@@ -2,7 +2,7 @@
 
 /**
  *_memset - set value
- *@*s: pointer
+ *@s: pointer
  *@b: value of assignmen
  *@n: end point
  *@*i: new value
