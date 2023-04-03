@@ -2,10 +2,10 @@
 
 /*
  *_memset - set value
- *@s: pointer
+ *@*s: pointer
  *@b: value of assignment
  *@n: end point
- *@i: new value
+ *@*i: new value
  *Return: s
  */
 
