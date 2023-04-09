@@ -1,4 +1,4 @@
-  nclude <stdlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -15,17 +15,13 @@ if (argc != 3)
 printf("Error\n");
 return (1);
 }
+int i;
+int j;
+int mul;
 
-int num1 = atoi(argv[1]);
-int num2 = atoi(argv[2]);
-
-if (num1 == 0 || num2 == 0)
-{
-printf("Error\n");
-return (1);
-}
-int result = num1 * num2;
-printf("%d\n", result);
-
+i = atoi(argv[1]);
+j = atoi(argv[2]);
+mul = i * j;
+printf("%d\n", mul);
 return (0);
 }
