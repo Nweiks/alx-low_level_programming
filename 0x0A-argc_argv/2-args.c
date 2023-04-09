@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+*main - print argv
+*@argc: counter
+*@argv: vector
+*Return: 0
+*/
 
 int main(int argc, char *argv[])
 {
 int i;
-for (i = 1; i < argc; i++)
+for (i = 0; i < argc; i++)
 {
 printf("%s\n", argv[i]);
 }
