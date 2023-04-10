@@ -17,11 +17,6 @@ int main(int argc, char *argv[])
 	}
 	int cents;
 	cents = atoi(argv[1]);
-	if (cents < 0)
-	{
-		printf("0\n");
-		return (0);
-	}
 	int coins;
 	coins = 0;
 
