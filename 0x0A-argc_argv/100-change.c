@@ -1,29 +1,55 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        printf("Error\n");
-        return 1;
-    }
+/**
+ *main - prinnt change
+ *@argc: count
+ *@argv: vector
+ *Return: 0 or 1 or Error
+ */
 
-    int cents = atoi(argv[1]);
-    if (cents < 0) {
-        printf("0\n");
-        return 0;
-    }
+int main(int argc, char *argv[])
+{
+	if (argc != 2)
+	{
+		printf("Error\n");
+		return (0);
+	}
+	int cents;
+	cents = atoi(argv[1]);
+	if (cents < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
+	int coins;
+	coins = 0;
 
-    int coins[5] = {25, 10, 5, 2, 1};
-    int num_coins = 0;
-	int i;
-
-    for (i = 0; i < 5; i++) {
-        num_coins += cents / coins[i];
-        cents %= coins[i];
-    }
-
-    printf("%d\n", num_coins);
-
-    return 0;
+	while (cents > 0)
+	{
+		coins++;
+		if ((cents - 25) >= 0)
+		{
+			cents -= 25;
+			continue;
+		}
+		if ((cents - 10) >= 0)
+		{
+			cents -= 10;
+			continue;
+		}
+		if ((cents - 5) >= 0)
+		{
+			cents -= 5;
+			continue;
+		}
+		if ((cents - 2) >= 0)
+		{
+			cents -= 2;
+			continue;
+		}
+		cents--;
+	}
+	printf("%d\n", coins);
+	return (0);
 }
-
