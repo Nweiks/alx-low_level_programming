@@ -24,14 +24,8 @@ return (1);
 }
 }
 int num = atoi(argv[i]);
-if (num < 0)
-{
-printf("Error\n");
-return (1);
-}
 sum += num;
 }
 printf("%d\n", sum);
 return (0);
 }
-
