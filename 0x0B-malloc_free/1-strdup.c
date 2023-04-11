@@ -14,7 +14,9 @@ if (str == NULL)
 {
 return (NULL);
 }
-int len = strlen(str);
+int len;
+
+len = strlen(str);
 char *new_str = (char *) malloc(sizeof(char) * (len + 1));
 
 if (new_str == NULL)
