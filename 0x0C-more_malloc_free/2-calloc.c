@@ -16,7 +16,7 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-p = malloc(nmemc * size);
+p = malloc(nmemb * size);
 
 if (!p) 
 {
