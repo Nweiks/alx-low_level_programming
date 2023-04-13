@@ -4,8 +4,8 @@
 #include "main.h"
 
 /**
-*_calloc - allocate memory 
-*@nmemb: string 
+*_calloc - allocate memory
+*@nmemb: string
 *@size: size of string
 *Return: p
 */
@@ -20,10 +20,10 @@ return (NULL);
 }
 p = malloc(nmemb * size);
 
-if (!p) 
+if (!p)
 {
 return (NULL);
 }
-memset (p, 0, nmemb * size);
+memset(p, 0, nmemb * size);
 return (p);
 }
