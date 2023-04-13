@@ -8,7 +8,7 @@
 *Return: p
 */
 
-void *_calloc(unsigned int memb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *p;
 
@@ -22,6 +22,6 @@ if (!p)
 {
 return (NULL);
 }
-memset (p, 0,nmemb * size);
+memset (p, 0, nmemb * size);
 return (p)
 }
