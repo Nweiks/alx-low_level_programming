@@ -16,7 +16,7 @@ unsigned int i, j;
 char *result;
 
 i = s1 ? strlen(s1) : 0;
-j = s2 ? strlen(s2, n) : 0;
+j = s2 ? strnlen(s2, n) : 0;
 result = malloc(i + j + 1);
 
 if (!result)
