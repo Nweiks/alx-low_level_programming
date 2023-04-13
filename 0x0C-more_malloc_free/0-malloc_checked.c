@@ -1,4 +1,4 @@
-#include <stdlib.c>
+#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -14,7 +14,7 @@ void *p;
 
 p = malloc(b);
 
-if (p == NULL)
+if (!p)
 {
 exit(98);
 }
