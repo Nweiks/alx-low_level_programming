@@ -15,7 +15,7 @@ p = malloc(b);
 
 if (!p)
 {
-_Exit (98);
+exit (98);
 }
 return (p);
 }
