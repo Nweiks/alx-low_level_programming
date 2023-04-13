@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
@@ -24,5 +25,5 @@ if (!p)
 return (NULL);
 }
 memset (p, 0, nmemb * size);
-return (p)
+return (p);
 }
