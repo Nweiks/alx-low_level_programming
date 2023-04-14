@@ -5,7 +5,7 @@
 *array_range - creates a range of arrays
 *@min: min value
 *@max: max value
-*Return: pointer 
+*Return: pointer
 */
 
 int *array_range(int min, int max)
@@ -19,7 +19,7 @@ if (min > max)
 return (NULL);
 }
 size = max - min + 1;
-arr = (int *) malloc(size * sizeof(int));
+arr = (int *) malloc(size *sizeof(int));
 
 if (arr == NULL)
 {
