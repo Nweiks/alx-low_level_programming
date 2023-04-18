@@ -6,7 +6,7 @@
 *@name: first input
 *@age: second input
 *@owner: third input
-*
+*Description: longer 
 */
 
 struct dog
@@ -17,7 +17,7 @@ char *owner;
 };
 
 /**
-*dog_t -typedef
+*dog_t - typedef
 */
 
 typedef struct dog dog_t;
