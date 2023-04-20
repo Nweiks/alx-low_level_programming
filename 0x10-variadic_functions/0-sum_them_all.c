@@ -4,7 +4,7 @@
 /**
  *sum_them_all - sumall numbers
  *@n: int
- *@...; other arguments 
+ *@...; other arguments
  *Return: 0 if n == 0
  */
 
