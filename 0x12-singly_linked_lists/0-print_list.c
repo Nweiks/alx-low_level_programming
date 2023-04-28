@@ -4,7 +4,7 @@
 
 /**
  *print_list - print list
- *@h: pointer 
+ *@h: pointer
  *Return: c
  */
 
