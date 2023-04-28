@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
- *free_listc - frees the list_t
- *@head: list_t to be freed
+ *free_listc - frees the list
+ *@head: list_t list to be freed
  */
 
 void free_list(list_t *head)
