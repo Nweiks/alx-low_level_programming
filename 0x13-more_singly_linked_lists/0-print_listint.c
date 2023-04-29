@@ -4,7 +4,6 @@
 
 /**
 *print_listint - list all ints
-*@listint_t: the list to be listed
 *@h: pointer to list
 *Return: 0
 */
