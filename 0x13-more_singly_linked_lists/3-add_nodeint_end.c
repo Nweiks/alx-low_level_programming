@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-*add_nodeint - adds to end of node
+*add_nodeint_end - adds to end of node
 *@head: head of node
 *@n: to be added
 *Return: new
