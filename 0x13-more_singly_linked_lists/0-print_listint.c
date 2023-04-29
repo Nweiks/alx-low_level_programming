@@ -20,5 +20,5 @@ printf("%d\n", h->n);
 counts++;
 h = h->next;
 }
-return (0);
+return (counts);
 }
