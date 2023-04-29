@@ -1,17 +1,17 @@
-section .data
-hello db "Hello, Holberton",0
-format db "%s\n",0
-
-section .text
 global _start
 
-extern printf
-push hello
-push format
-call printf
-add rsp, 16
+section .data
+hello db "Hello, Holberton", 10, 0
 
-xor eax, eax
-mov eax, 60
+section .text
+_start:
+
+; set up arguments for printf
+mov rdi, hello
+xor rax, rax
+call printf
+
+; Exit program
 xor edi, edi
+mov eax, 60
 syscall
