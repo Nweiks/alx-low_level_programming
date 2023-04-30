@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- *sum_listint - sum list in node
- @head: head of list
- *REturn: sum of list
+ *sum_listint - returns the sum of all the data (n) of a listint_t linked list
+*@head: head of list
+ *Return: sum of list
  */
 
 int sum_listint(listint_t *head)
