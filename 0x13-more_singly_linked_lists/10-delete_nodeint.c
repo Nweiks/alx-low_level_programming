@@ -20,7 +20,7 @@ return (-1);
 if (index == 0)
 {
 current = *head;
-*head = current->net;
+*head = current->next;
 free(current);
 return (1);
 }
@@ -29,12 +29,12 @@ current = *head;
 for (j = 0; j < index && current != NULL; j++)
 {
 prev = current;
-current - current->next;
+current = current->next;
 }
 
 if (current == NULL)
 {
-return (-1(;
+return (-1);
 }
 if (prev != NULL)
 {
