@@ -5,7 +5,7 @@
 /**
 *insert_nodeint_at_index - inserts new node at end of listint_t
 *@head: haed of list
-*@idx: add node 
+*@idx: add node
 *@n: new node
 *Return: returns new node or NULL
 */
@@ -33,13 +33,11 @@ new->next = *head;
 *head = new;
 return (new);
 }
-
 for (j = 0; j < idx && current != NULL; j++)
 {
 prev = current;
 current = current->next;
 }
-
 if (j < idx)
 {
 return (NULL);
@@ -52,6 +50,5 @@ return (NULL);
 new->n = n;
 new->next = current;
 prev->next = new;
-
 return (new);
 }
