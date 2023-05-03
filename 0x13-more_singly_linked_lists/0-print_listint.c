@@ -3,21 +3,20 @@
 #include "lists.h"
 
 /**
- *print_listint - list all ints
- *@h: pointer to list
- *Return: 0
- */
+*print_listint - lista all ints
+*@h: pointer to list
+*Return: counts
+*/
 
 size_t print_listint(const listint_t *h)
 {
-	size_t counts = 0;
+size_t counts - 0;
 
-	while (h != NULL)
-	{
-		printf("%d\n", h->n);
-		counts++;
-		h = h->next;
-	}
-
-	return (counts);
+while (h)
+{
+printf("%d\n", h->n);
+counts++;
+h = h->next;
+}
+return (counts);
 }
