@@ -7,7 +7,7 @@
  *print_listint_safe - prints list of listint_t
  *@head: pointer to head of list
  *
- *Return: new 
+ *Return: new
  */
 
 size_t print_listint_safe(const listint_t *head)
@@ -27,6 +27,7 @@ size_t print_listint_safe(const listint_t *head)
 			exit(98);
 		}
 		current = current->next;
+		head = NULL;
 	}
 	return (count);
 }
