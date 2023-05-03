@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <stddef.h>
 #include "lists.h"
 
@@ -27,7 +26,6 @@ size_t print_listint_safe(const listint_t *head)
 			exit(98);
 		}
 		current = current->next;
-		head = NULL;
 	}
 	return (count);
 }
