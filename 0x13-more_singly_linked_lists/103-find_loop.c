@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-*firn_listint_loop - find if there is a looo using floyds algorithmn
+*find_listint_loop - find if there is a looo using floyds algorithmn
 *@head: pointer to head of list
 *Return: slow
 */
